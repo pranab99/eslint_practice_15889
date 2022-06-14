@@ -1,4 +1,11 @@
 {"extends": "strongloop",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
  "rules": {
     "semi": ["error", "always"],
         "quotes": ["error", "double"],
@@ -11,8 +18,7 @@
                 "message": "Unexpected property on console object was called"
             }
         ],
-        "no-plusplus": "off",
-        "parser": "babel-eslint"
-        
+        "no-plusplus": "off"
+
   }
 }
